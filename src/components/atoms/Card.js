@@ -10,8 +10,9 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
       }}
     >
       <div className="content">
-        <h1 className="header">{heading}</h1>
-        <p className="text">{paragraph}</p>
+        <h1 className="header" style={{color: "black", fontWeight: "bold"}}>{heading}</h1>
+        <p className="text"
+         style={{color: "black", fontWeight: "bold", fontSize: "20px"}}>{paragraph}</p>
         <a
           href={projectLink ? projectLink : "#"}
           target="_blank"

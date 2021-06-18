@@ -6,7 +6,7 @@
   align-items: center;
 
   h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     @include media(">=phone", "<lgphone") {
       font-size: 14px;
@@ -15,21 +15,21 @@
       font-size: 16px;
     }
     @include media(">=tablet", "<desktop") {
-      font-size: 16px;
+      font-size: 30px;
     }
   }
   .heading-wrapper {
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       text-align: center;
       line-height: 20Portx;
       @include media(">=phone", "<lgphone") {
         font-size: 1.5rem;
-        line-height: 10px;
+        line-height: 13px;
       }
       @include media(">=lgphone", "<tablet") {
         font-size: 1.5rem;
-        line-height: 10px;
+        line-height: 19px;
       }
       @include media(">=tablet", "<desktop") {
         font-size: 2.5rem;
@@ -53,4 +53,14 @@
       width: 100%;
     }
   }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+  .header-wrapper .heading-wrapper h1 {
+    line-height: 19px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+
 }
