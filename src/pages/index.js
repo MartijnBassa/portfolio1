@@ -10,7 +10,7 @@ import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
 
-const IndexPage = () => (
+const IndexPage = () => ( 
   <Layout>
     <SEO title="Martijn Bassa Portfolio" />
     <Header></Header>

@@ -27,24 +27,34 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Argoth", //Project Title - Add Your Project Title Here
       para:
-        "The first game i've worked on.", // Add Your Service Type Here
+        "Argoth, a FPS 3-D action/adventure game", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://i.ibb.co/JKRQZSS/game.jpg",
       //Project URL - Add Your Project Url Here
-      url: "https://fontys-gdt.itch.io/group-16",
+      url: "https://app.gitbook.com/@martijnbassa/s/portfolio-martijn-bassa/products/argoth",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Pathfinding solution | Phillips", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "a pathfinding app preventing clustering among people", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        "https://i.ibb.co/jJVTHdR/Philips-logo.png",
       //Project URL - Add Your Project Url Here
-      url: "",
+      url: "https://martijnbassa.gitbook.io/portfolio-martijn-bassa/products/pathfinding-solution-phillips",
+    },
+    {
+      title: "Interactive AR app | Summa College", //Project Title - Add Your Project Title Here
+      para:
+        "An interactive AR app designed to help students", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://i.ibb.co/Jt4SRCG/3f87be62cf3c2427b0c034ad893de886-400x400.png",
+      //Project URL - Add Your Project Url Here
+      url: "https://app.gitbook.com/@martijnbassa/s/portfolio-martijn-bassa/products/ar-interactive-learning-app-summa-college",
     },
 
     /*
@@ -68,7 +78,7 @@ export default {
   aboutParaThree:
     "I'm still starting out but I'm always looking for new experiences.",
   aboutImage:
-    "https://i.imgur.com/RNDhOjY.png",
+    "https://i.ibb.co/tC3BWxx/image0.jpg",
 
   //   End About Section ---------------------
 
